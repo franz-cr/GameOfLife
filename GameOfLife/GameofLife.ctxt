@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GameofLife
+comment1.params=wide\ height
+comment1.target=GameofLife(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameofLife\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=patron
+comment3.target=void\ coloniaInicial(int)
+comment3.text=\r\n\ coloniaInicial\ -\ Coloca\ la\ colonia\ inicial\ en\ el\ mundo.\r\n\r\n\ @param\ \ \ patron\:\ el\ tipo\ de\ patr\u00F3n\ a\ utilizar\ para\ la\ primera\ colonia\ de\ 5\ c\u00E9lulas\r\n\ @return\ \ ninguno\r\n
+comment4.params=
+comment4.target=void\ crearGeneracion()
+comment4.text=\r\n\ crearGeneracion\ -\ Recorre\ las\ celdas\ de\ mundo\ y\ cuenta\ los\ vecinos\ de\ cada\ una.\ \r\n\ Marca\ con\ 'D'\ los\ individuos\ que\ no\ van\ a\ sobrevivir\ a\ la\ nueva\ generaci\u00F3n\ y\r\n\ con\ 'C'\ aquellos\ que\ nacen\ en\ la\ nueva\ generaci\u00F3n.\r\n\r\n\ @param\ \ \ Ninguno.\r\n\ @return\ \ Ninguno.\ \ \r\n
+comment5.params=
+comment5.target=void\ limpiarGeneracion()
+comment5.text=\r\n\ limpiarGeneracion\ -\ Limpia\ los\ individuos\ muertos\ y\ agrega\ los\ reci\u00E9n\ nacidos.\r\n\r\n\ @param\ \ \ Ninguno.\r\n\ @return\ \ Ninguno.\ \ \r\n
+comment6.params=
+comment6.target=int\ contarCelulas()
+comment7.params=xCoord\ yCoord
+comment7.target=int\ qtyVecinos(int,\ int)
+comment7.text=\r\n\ qtyVecinos\ -\ Eval\u00FAa\ la\ cantidad\ de\ vecinos\ que\ rodean\ la\ celda\ dada.\r\n\r\n\ @param\ \ \ xCoord\ -\ La\ coordena\ en\ X\ de\ la\ celda\ a\ evaluar.\r\n\ @param\ \ \ yCoord\ -\ La\ coordena\ en\ y\ de\ la\ celda\ a\ evaluar.\r\n\ @return\ \ Retorna\ la\ cantidad\ de\ vecinos\ encontrados.\ \ \r\n
+comment8.params=
+comment8.target=void\ mostrarMatriz()
+comment8.text=\r\n\ mostrarMatriz\ -\ Despliega\ la\ matriz\ en\ pantalla\ en\ un\ formato\ dado.\r\n\r\n\ @param\ \ \ Ninguno.\r\n\ @return\ \ Ninguno.\ \ \r\n
+numComments=9
